@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import Header from './components/pages/Header';
-import Nav from './components/pages/Nav'
-import About from './components/pages/About';
-import Portfolio from './components/pages/Portfolio';
-import Contact from './components/pages/Contact';
-import Resume from './components/pages/Resume';
-import Footer from './components/pages/Footer';
+import Header from './components/Header';
+import Nav from './components/Nav'
+import About from './components/About';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 function App() {
   const [pageIndex, setPageIndex] = useState(0);
