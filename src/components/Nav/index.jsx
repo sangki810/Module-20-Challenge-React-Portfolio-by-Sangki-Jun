@@ -10,7 +10,7 @@ const Nav = ({
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between">
       <div className="px-3">
-        <h1 className="text-light">Sangki B. Jun</h1>
+        <h1 className="text-light"><a onClick={showAbout}>Sangki B. Jun</a></h1>
       </div>
       <div className="px-3">
         <li

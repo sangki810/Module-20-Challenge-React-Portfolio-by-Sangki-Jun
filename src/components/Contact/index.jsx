@@ -33,7 +33,9 @@ const Contact = () => {
 
   return (
     <form className="container pt-3" onSubmit={handleSubmit}>
-      <h1>Contact Me</h1>
+      <h1>
+        <u>Contact Me</u>
+      </h1>
       <div className="form-group mt-3">
         <label for="name">Name</label>
         <input
