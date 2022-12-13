@@ -12,7 +12,7 @@ const Nav = ({
       <div className="px-3">
         <h1 className="text-light">Sangki B. Jun</h1>
       </div>
-      <div>
+      <div className="px-3">
         <li
           className={
             currentPage == 0 ? "btn text-light active" : "btn text-light"
