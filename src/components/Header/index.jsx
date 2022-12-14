@@ -15,7 +15,7 @@ const Nav = ({
       <div className="px-3">
         <li
           className={
-            currentPage == 0 ? "btn text-light active" : "btn text-light"
+            currentPage == 0 ? "btn text-light active mx-2" : "btn text-light mx-2"
           }
           onClick={showAbout}
         >
@@ -23,7 +23,7 @@ const Nav = ({
         </li>
         <li
           className={
-            currentPage == 1 ? "btn text-light active" : "btn text-light"
+            currentPage == 1 ? "btn text-light active mx-2" : "btn text-light mx-2"
           }
           onClick={showPortfolio}
         >
@@ -31,7 +31,7 @@ const Nav = ({
         </li>
         <li
           className={
-            currentPage == 2 ? "btn text-light active" : "btn text-light"
+            currentPage == 2 ? "btn text-light active mx-2" : "btn text-light mx-2"
           }
           onClick={showContact}
         >
@@ -39,7 +39,7 @@ const Nav = ({
         </li>
         <li
           className={
-            currentPage == 3 ? "btn text-light active" : "btn text-light"
+            currentPage == 3 ? "btn text-light active mx-2" : "btn text-light mx-2"
           }
           onClick={showResume}
         >
