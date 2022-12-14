@@ -1,4 +1,5 @@
 import React from "react";
+import ResumePDF from '../../assets/pdf/Resume.pdf';
 
 const Resume = () => {
   return (
@@ -29,6 +30,9 @@ const Resume = () => {
           <li>REST</li>
           <li>GraphQL</li>
         </ul>
+      </div>
+      <div>
+        <h4>Download my <a className='' href={ResumePDF}>resume</a></h4>
       </div>
     </div>
   );

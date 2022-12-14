@@ -43,6 +43,7 @@ const Contact = () => {
           class="form-control"
           aria-describedby="emailHelp"
           placeholder="Enter name"
+          required
         ></input>
       </div>
       <div className="form-group mt-3">
@@ -53,6 +54,7 @@ const Contact = () => {
           class="form-control"
           aria-describedby="emailHelp"
           placeholder="Enter email"
+          required
         ></input>
       </div>
       <div className="form-group mt-3">
@@ -62,6 +64,7 @@ const Contact = () => {
           class="form-control"
           aria-describedby="emailHelp"
           placeholder="Enter name"
+          required
         ></textarea>
       </div>
       <button type="submit" className="btn btn-primary mt-3">
