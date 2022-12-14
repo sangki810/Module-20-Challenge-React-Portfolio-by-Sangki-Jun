@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio-by-Sangki-Jun/static/css/main.e10bfa4c.css",
+    "main.js": "/React-Portfolio-by-Sangki-Jun/static/js/main.68073ef8.js",
+    "static/media/cinemafiles-by-cinemaphiles.PNG": "/React-Portfolio-by-Sangki-Jun/static/media/cinemafiles-by-cinemaphiles.95d934538935c28034ec.PNG",
+    "static/media/self-portrait.jpg": "/React-Portfolio-by-Sangki-Jun/static/media/self-portrait.de25de27ffde11b0133f.jpg",
+    "static/media/Game-Finder.jpg": "/React-Portfolio-by-Sangki-Jun/static/media/Game-Finder.987ff614d859e83d25bb.jpg",
+    "static/media/under-construction.jpg": "/React-Portfolio-by-Sangki-Jun/static/media/under-construction.1ce900561e15798f5e0c.jpg",
+    "static/media/tech-blog.PNG": "/React-Portfolio-by-Sangki-Jun/static/media/tech-blog.6ee9f7fab616f7a6c6ad.PNG",
+    "static/media/weather-dashboard.jpg": "/React-Portfolio-by-Sangki-Jun/static/media/weather-dashboard.f1e6b200802ca23ae49d.jpg",
+    "static/media/module-19-challenge-jate.jpg": "/React-Portfolio-by-Sangki-Jun/static/media/module-19-challenge-jate.810b4396b42925a8a6bc.jpg",
+    "static/media/Resume.pdf": "/React-Portfolio-by-Sangki-Jun/static/media/Resume.db6283e77f86738b58f8.pdf",
+    "index.html": "/React-Portfolio-by-Sangki-Jun/index.html",
+    "main.e10bfa4c.css.map": "/React-Portfolio-by-Sangki-Jun/static/css/main.e10bfa4c.css.map",
+    "main.68073ef8.js.map": "/React-Portfolio-by-Sangki-Jun/static/js/main.68073ef8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e10bfa4c.css",
+    "static/js/main.68073ef8.js"
+  ]
+}
