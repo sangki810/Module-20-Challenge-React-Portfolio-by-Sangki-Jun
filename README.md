@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Module 20 Challenge: React Portfolio by Sangki Jun
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+This is the completed module 20 challenge from the UCF FSF Bootcamp. The purpose of this assignment was for the creator to practice using React for the first time to create a single-page web portfolio. This repository was created from scratch and completed with specific instructions from the bootcamp program.
 
-## Available Scripts
+## Table of Contents
+1. [Installations](#installations)
+2. [Usage](#usage)
+3. [Contributing](#contributing)
+4. [License](#license)
+5. [Questions](#questions)
 
-In the project directory, you can run:
+## Installations
+The link to the deployed website is here: [Portfolio](). <br />
+![]()
 
-### `npm start`
+## Usage
+Use this as a way to view my other works, contact me, see my resume, or as a template for your own portfolio.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Contributing
+If you have any good ideas or changes you want to share, you can create a pull request or add issues to the repository. You can also contact me using the information in the [Questions](#questions) section.<br />
+To create a pull request:
+1. Clone the repository to your local environment using the `git clone SSH-key` command.
+2. Create a branch using `git checkout -b branch-name`.
+3. Add the changes using `git add -A`.
+4. Commit the changes using `git commit -m "message here"`.
+5. Push the changes using `git push origin branch-name`.
+6. Create a pull request on GitHub.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## License
+This project is licensed under:<br />
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br />
+&copy; all rights reserved by [Sangki B. Jun](https://github.com/sangki810)
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Questions
+If you have any questions regarding this project, reach out to me via:
+* GitHub: [sangki810](https://github.com/sangki810)
+* E-mail: [sangki810@gmail.com](mailto:sangki810@gmail.com)
