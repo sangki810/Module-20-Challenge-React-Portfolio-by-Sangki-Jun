@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "homepage": "https://sangki810.github.io/Module-20-Challenge-React-Portfolio-by-Sangki-Jun/",
+  "homepage": "https://sangki810.github.io/React-Portfolio-by-Sangki-Jun/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
