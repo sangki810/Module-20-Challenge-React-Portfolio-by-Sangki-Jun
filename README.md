@@ -12,8 +12,8 @@ This is the completed module 20 challenge from the UCF FSF Bootcamp. The purpose
 5. [Questions](#questions)
 
 ## Installations
-The link to the deployed website is here: [Portfolio](). <br />
-![]()
+The link to the deployed website is here: [Portfolio](https://sangki810.github.io/React-Portfolio-by-Sangki-Jun/). <br />
+![](./src/assets/images/react%20portfolio.jpg)
 
 ## Usage
 Use this as a way to view my other works, contact me, see my resume, or as a template for your own portfolio.
