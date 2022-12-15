@@ -1,44 +1,41 @@
-import React, { useState } from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
-  const [email, setEmail] = useState("");
+  const form = useRef();
 
-  const [error, setError] = useState("");
-
-  const validateEmail = (text) => {
-    var expression =
-      /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    return expression.test(text.toLowerCase());
-  };
-
-  const handleInputChange = (e) => {
-    setEmail(e.target.value);
-    if (!validateEmail(email)) {
-      setError("Invalid Email");
-    } else {
-      setError("");
-    }
-  };
-
-  const handleSubmit = (e) => {
+  const sendEmail = (e) => {
     e.preventDefault();
-    console.log(validateEmail(email));
 
-    if (error != "") {
-      alert("Something went wrong: " + error);
-    } else {
-      alert("Email sent! (Not functional yet)");
-    }
+    emailjs
+      .sendForm(
+        "service_o7v6bje",
+        "template_jq2oxro",
+        form.current,
+        "wy8lERfJqzUl-RB7J"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("Message sent successfully!")
+        },
+        (error) => {
+          console.log(error.text);
+          alert("Something went wrong!")
+        }
+      );
+      e.target.reset();
   };
 
   return (
-    <form className="container pt-3" onSubmit={handleSubmit}>
+    <form className="container pt-3" ref={form} onSubmit={sendEmail}>
       <h1>
         <u>Contact Me</u>
       </h1>
       <div className="form-group mt-3">
         <label for="name">Name</label>
         <input
+          name="user_name"
           type="text"
           class="form-control"
           aria-describedby="emailHelp"
@@ -47,10 +44,21 @@ const Contact = () => {
         ></input>
       </div>
       <div className="form-group mt-3">
+        <label for="subject">Subject</label>
+        <input
+          name="subject"
+          type="text"
+          class="form-control"
+          aria-describedby="emailHelp"
+          placeholder="Type your subject here"
+          required
+        ></input>
+      </div>
+      <div className="form-group mt-3">
         <label for="email">Email address</label>
         <input
-          type="text"
-          onChange={handleInputChange}
+          name="user_email"
+          type="email"
           class="form-control"
           aria-describedby="emailHelp"
           placeholder="Enter email"
@@ -60,14 +68,15 @@ const Contact = () => {
       <div className="form-group mt-3">
         <label for="message">Message</label>
         <textarea
+          name="message"
           type="text"
           class="form-control"
           aria-describedby="emailHelp"
-          placeholder="Enter name"
+          placeholder="Type your message here"
           required
         ></textarea>
       </div>
-      <button type="submit" className="btn btn-primary mt-3">
+      <button className="btn btn-primary mt-3" type="submit" value="Send">
         Submit
       </button>
     </form>
