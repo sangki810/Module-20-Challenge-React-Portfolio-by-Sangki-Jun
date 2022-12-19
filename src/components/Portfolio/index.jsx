@@ -1,5 +1,5 @@
 import React from "react";
-import USPostalPrinting from '../../assets/images/under-construction.jpg';
+import USPostalPrinting from '../../assets/images/us-postal-printing.jpg';
 import Cinemafiles from '../../assets/images/cinemafiles-by-cinemaphiles.PNG';
 import GameFinder from '../../assets/images/Game-Finder.jpg';
 import TechBlog from '../../assets/images/tech-blog.PNG';
