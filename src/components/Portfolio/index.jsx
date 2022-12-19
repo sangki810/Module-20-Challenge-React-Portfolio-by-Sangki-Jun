@@ -1,5 +1,5 @@
 import React from "react";
-import UnderConstruction from '../../assets/images/under-construction.jpg';
+import USPostalPrinting from '../../assets/images/under-construction.jpg';
 import Cinemafiles from '../../assets/images/cinemafiles-by-cinemaphiles.PNG';
 import GameFinder from '../../assets/images/Game-Finder.jpg';
 import TechBlog from '../../assets/images/tech-blog.PNG';
@@ -19,12 +19,12 @@ const Portfolio = () => {
       <div className='d-flex flex-column'>
         <div className='d-flex flex-row justify-content-center my-5'>
           <div className='card mx-5' style={cardStyle}>
-            <img className='card-img-top' src={UnderConstruction} ></img>
+            <img className='card-img-top' src={USPostalPrinting} ></img>
             <div className='card-body text-center'>
               <h5>US Postal & Printing</h5>
               <p>MERN stack</p>
               <div className='text-center'>
-                <a className='btn btn-primary mx-2'>Site</a>
+                <a className='btn btn-primary mx-2' href='https://us-postal-printing.herokuapp.com/'>Site</a>
                 <a className='btn btn-primary mx-2' href='https://github.com/Mateo-Wallace/US-Postal-Printing'>Repo</a>
               </div>
             </div>
